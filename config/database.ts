@@ -6,7 +6,7 @@ export default ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST', '115.190.78.215'),
+        host: env('DATABASE_HOST', 'n'),
         port: env.int('DATABASE_PORT', 13306),
         database: env('DATABASE_NAME', 'strapi'),
         user: env('DATABASE_USERNAME', 'strapi'),
